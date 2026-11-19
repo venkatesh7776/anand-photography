@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Gallery · Anand Photography</title>
+  <meta name="theme-color" content="#0d0c0a" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo/anand-mark.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="event">
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero" style="min-height:86vh">
+      <div class="page-hero__bg"><img id="evBg" src="" alt="" /></div>
+      <div class="container">
+        <div class="crumbs reveal"><a href="index.html">Home</a><span>/</span><a href="events.html">Events</a><span>/</span><b id="evCrumb"></b></div>
+        <h1 class="reveal" id="evTitle"></h1>
+        <p class="page-hero__intro reveal" id="evIntro"></p>
+        <div class="page-hero__meta reveal" id="evMeta"></div>
+      </div>
+    </section>
+    <section class="section section--dark">
+      <div class="container">
+        <div class="gallery" id="evGallery"></div>
+        <div class="event-nav" id="evNav"></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<g transform="translate(200 120) scale(0.95)">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#1A55D6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7FE3F0"/><stop offset="1" stop-color="#14A3C7"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B6F06A"/><stop offset="1" stop-color="#2DB84B"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7AC6"/><stop offset="1" stop-color="#C21E8C"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB15C"/><stop offset="1" stop-color="#F0561E"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE873"/><stop offset="1" stop-color="#F5A70A"/></linearGradient>
+    <path id="p" d="M 12 -10 C 6 -50, 40 -88, 88 -64 C 58 -62, 40 -40, 40 -8 C 38 8, 18 10, 12 -10 Z"/>
+  </defs>
+  <g transform="scale(0.86)">
+    <use href="#p" fill="url(#g1)" transform="rotate(-80)"/>
+    <use href="#p" fill="url(#g6)" transform="rotate(-20)"/>
+    <use href="#p" fill="url(#g5)" transform="rotate(40)"/>
+    <use href="#p" fill="url(#g4)" transform="rotate(100)"/>
+    <use href="#p" fill="url(#g3)" transform="rotate(160)"/>
+    <use href="#p" fill="url(#g2)" transform="rotate(220)"/>
+  </g>
+</g>
+<g font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif" font-weight="700" fill="#14110D" text-anchor="middle">
+<text x="200" y="285" font-size="66" letter-spacing="2">ANAND</text>
+<text x="200" y="355" font-size="66" letter-spacing="2">IMAGES</text>
+</g>
+</svg>

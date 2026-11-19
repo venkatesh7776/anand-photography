@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anand Photography · Wedding & Event Photographer in Visakhapatnam</title>
+  <meta name="description" content="Anand Photography, Visakhapatnam — wedding, engagement, maternity, newborn, family, event and portrait photography. Rated 5.0 ★ on Google from 708 reviews." />
+  <meta name="theme-color" content="#0f0e0c" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo/anand-mark.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="home">
+
+  <div class="loader" aria-hidden="true">
+    <img src="assets/logo/anand-mark.svg" alt="" class="loader__mark" />
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <div id="site-header"></div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__slides" id="heroSlides"></div>
+      <div class="hero__shade"></div>
+
+      <div class="container hero__main">
+        <div class="hero__content">
+          <p class="hero__loc hero__fade"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Visakhapatnam</p>
+          <h1 class="hero__title">
+            <span class="line"><span>Every Moment Has</span></span>
+            <span class="line"><span>a <em>Story.</em> <span class="nw">We Capture It.</span></span></span>
+          </h1>
+          <p class="hero__lead hero__fade">Weddings, celebrations and life’s special moments — captured with genuine emotion, kept forever.</p>
+          <div class="hero__ctas hero__fade">
+            <a href="portfolio.html" class="btn btn--gold">Explore Our Work <i class="arr"></i></a>
+            <a href="#contact" class="btn btn--glass">Book a Photoshoot</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__bar">
+        <div class="container hero__bar-inner hero__fade">
+          <a class="rating" href="#" data-reviews target="_blank" rel="noopener">
+            <span class="g-logo" aria-hidden="true">G</span>
+            <span class="rating__score">5.0</span>
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <span class="rating__sep"></span>
+            <span class="rating__count">708 Google Reviews</span>
+          </a>
+          <div class="hero__nav">
+            <div class="hero__now"><span class="hero__count"><b id="heroIdx">01</b> / <span id="heroTotal">04</span></span><span class="hero__label" id="heroLabel"></span></div>
+            <div class="hero__thumbs" id="heroDots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORIES / SERVICES ============ -->
+    <section class="section section--dark" id="services">
+      <div class="container">
+        <header class="head head--split">
+          <div>
+            <p class="eyebrow reveal">What We Capture</p>
+            <h2 class="h2 reveal">Explore Our <em>Photography</em></h2>
+          </div>
+          <p class="head__text reveal">Every occasion deserves its own story. Discover the moments we love capturing.</p>
+        </header>
+        <div class="cats" id="cats"></div>
+      </div>
+    </section>
+
+    <!-- ============ RECENT EVENTS ============ -->
+    <section class="section section--ivory" id="events">
+      <div class="container">
+        <header class="head head--split">
+          <div>
+            <p class="eyebrow reveal">Latest Stories</p>
+            <h2 class="h2 reveal">Recently Captured <em>Moments</em></h2>
+          </div>
+          <div class="head__side reveal">
+            <p class="head__text">A glimpse into the beautiful celebrations, special occasions and stories we’ve recently captured.</p>
+            <a href="events.html" class="link-arrow">View All Events <i class="arr"></i></a>
+          </div>
+        </header>
+        <div class="events events--four" id="recentEvents"></div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section section--dark" id="work">
+      <div class="container">
+        <header class="head head--center">
+          <p class="eyebrow reveal">Portfolio</p>
+          <h2 class="h2 reveal">A Collection of <em>Beautiful Moments</em></h2>
+          <p class="head__text reveal">From candid emotions to timeless portraits, explore some of the moments we’ve had the privilege of capturing.</p>
+        </header>
+        <div class="filters reveal" id="filters" role="tablist" aria-label="Filter portfolio"></div>
+        <div class="gallery" id="portfolio" data-limit="10"></div>
+        <div class="center-cta reveal"><a href="portfolio.html" class="btn btn--outline">Explore Full Portfolio <i class="arr"></i></a></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT + WHY ============ -->
+    <section class="section section--ivory about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__media reveal">
+            <figure class="about__img about__img--main"><img src="" data-p="bride" data-w="1100" alt="Bridal portrait by Anand Photography" loading="lazy" /></figure>
+            <figure class="about__img about__img--sub"><img src="" data-p="camera" data-w="700" alt="Behind the scenes" loading="lazy" /></figure>
+          </div>
+          <div class="about__text">
+            <p class="eyebrow reveal">A Little About Us</p>
+            <h2 class="h2 reveal">Behind Every Photograph <em>Is a Story.</em></h2>
+            <p class="lead reveal">At Anand Photography, we believe every moment deserves to be remembered.</p>
+            <p class="reveal">From weddings and family celebrations to maternity and individual portraits, we capture genuine emotions and meaningful moments through professional photography and videography.</p>
+            <p class="reveal">Our goal is simple: to turn your special occasions into memories you can revisit for years to come.</p>
+            <a href="#contact" class="btn btn--dark reveal">Get to Know Us <i class="arr"></i></a>
+          </div>
+        </div>
+
+        <div class="why">
+          <h3 class="why__title reveal">Your Moments Deserve <em>the Best Attention.</em></h3>
+          <div class="why__grid">
+            <div class="why__item reveal">
+              <svg viewBox="0 0 48 48"><rect x="6" y="14" width="36" height="26" rx="3"/><circle cx="24" cy="27" r="8"/><path d="M17 14l3-5h8l3 5"/></svg>
+              <h4>Professional Photography</h4><p>Photography and videography services for different occasions.</p>
+            </div>
+            <div class="why__item reveal" style="--d:.08s">
+              <svg viewBox="0 0 48 48"><path d="M24 40s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 38 21c0 10.5-14 19-14 19z"/></svg>
+              <h4>Moments That Matter</h4><p>Capturing genuine emotions, candid interactions and meaningful memories.</p>
+            </div>
+            <div class="why__item reveal" style="--d:.16s">
+              <svg viewBox="0 0 48 48"><rect x="7" y="7" width="15" height="15" rx="2"/><rect x="26" y="7" width="15" height="15" rx="2"/><rect x="7" y="26" width="15" height="15" rx="2"/><rect x="26" y="26" width="15" height="15" rx="2"/></svg>
+              <h4>Multiple Photography Services</h4><p>From weddings and celebrations to family and individual portraits.</p>
+            </div>
+            <div class="why__item reveal" style="--d:.24s">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="17" r="7"/><path d="M10 41c1.5-8 7-12 14-12s12.5 4 14 12"/></svg>
+              <h4>Customer-Focused Service</h4><p>Understanding your requirements and creating an experience around your occasion.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST + TESTIMONIALS ============ -->
+    <section class="section section--dark testi" id="reviews">
+      <div class="container testi__grid">
+        <div class="testi__left">
+          <p class="eyebrow reveal">Trusted by Our Customers</p>
+          <h2 class="h2 reveal">Kind Words From <em>Our Customers.</em></h2>
+          <p class="head__text reveal">Every photograph tells a story. Here’s what our customers say about their experience with us.</p>
+          <div class="stats reveal">
+            <div class="stat"><div class="stat__num"><span data-count="5.0" data-dec="1">5.0</span><small>★</small></div><div class="stat__label">Google Rating</div></div>
+            <div class="stat"><div class="stat__num"><span data-count="708">708</span></div><div class="stat__label">Google Reviews</div></div>
+          </div>
+        </div>
+        <div class="quote reveal" id="quote">
+          <svg class="quote__mark" viewBox="0 0 48 36"><path d="M0 36V22C0 9 7 1 19 0v7c-6 1-9 6-9 13h9v16zm29 0V22C29 9 36 1 48 0v7c-6 1-9 6-9 13h9v16z"/></svg>
+          <div class="quote__slides" id="quoteSlides"></div>
+          <div class="quote__foot">
+            <div class="quote__src"><span class="g-logo">G</span><span><strong>Google Review</strong><span class="stars">★★★★★</span></span></div>
+            <div class="quote__ctrl">
+              <button class="circle-btn" id="qPrev" aria-label="Previous review"><i class="arr arr--left"></i></button>
+              <span class="quote__count" id="qCount">01 / 03</span>
+              <button class="circle-btn" id="qNext" aria-label="Next review"><i class="arr"></i></button>
+            </div>
+          </div>
+          <a href="#" data-reviews target="_blank" rel="noopener" class="link-arrow link-arrow--light">Read More Reviews on Google <i class="arr"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INSTAGRAM ============ -->
+    <section class="section section--ivory insta">
+      <div class="container">
+        <header class="head head--split">
+          <div>
+            <p class="eyebrow reveal">Instagram</p>
+            <h2 class="h2 reveal">Follow Our <em>Photography Journey.</em></h2>
+          </div>
+          <div class="head__side reveal">
+            <p class="head__text">More stories, more celebrations and more beautiful moments. Explore our latest work on Instagram.</p>
+            <a href="#" data-instagram target="_blank" rel="noopener" class="btn btn--dark">Follow Us on Instagram</a>
+          </div>
+        </header>
+        <div class="insta__grid" id="instaGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--ink contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal">Let’s Connect</p>
+          <h2 class="h2 reveal">Let’s Capture Your Next <em>Special Moment.</em></h2>
+          <p class="contact__lead reveal">Planning a wedding, celebration or photoshoot? Tell us what you have in mind. We’d love to hear about it.</p>
+
+          <div class="contact__actions reveal">
+            <a class="act" href="tel:+919849401484">
+              <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+              <span><small>Call Now</small>+91 98494 01484</span>
+            </a>
+            <a class="act" href="#" data-whatsapp target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M3 21l1.7-5A9 9 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg>
+              <span><small>WhatsApp Us</small>Chat with us instantly</span>
+            </a>
+            <a class="act" href="#" data-directions target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              <span><small>Get Directions</small>Maddilapalem, Visakhapatnam</span>
+            </a>
+          </div>
+
+          <address class="contact__addr reveal">
+            <strong>Anand Photography</strong>
+            Vishnu Street, KRM Colony, Maddilapalem, Visakhapatnam, Andhra Pradesh 530022, India.
+            <span class="contact__rating"><span class="stars">★★★★★</span> 5.0 · 708 Google Reviews</span>
+          </address>
+        </div>
+
+        <div class="contact__formwrap reveal" id="enquiry">
+          <form class="form" id="enquiryForm" novalidate>
+            <h3 class="form__title">Send an Enquiry</h3>
+            <div class="field"><label for="f-name">Full Name</label><input id="f-name" name="name" type="text" required autocomplete="name" placeholder="Your name" /></div>
+            <div class="field"><label for="f-phone">Phone Number</label><input id="f-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+91" /></div>
+            <div class="field-row">
+              <div class="field"><label for="f-type">Event Type</label>
+                <select id="f-type" name="eventType" required>
+                  <option value="" disabled selected>Select an occasion</option>
+                  <option>Wedding / Engagement</option><option>Pre-Wedding Shoot</option><option>Event / Party</option>
+                  <option>Anniversary</option><option>Maternity / Newborn</option><option>Family / Group</option>
+                  <option>Portrait / Headshot</option><option>School Photography</option><option>Other</option>
+                </select>
+              </div>
+              <div class="field"><label for="f-date">Event Date</label><input id="f-date" name="eventDate" type="date" /></div>
+            </div>
+            <div class="field"><label for="f-msg">Your Message</label><textarea id="f-msg" name="message" rows="4" placeholder="Tell us a little about your occasion"></textarea></div>
+            <button class="btn btn--gold btn--block" type="submit">Send Enquiry <i class="arr"></i></button>
+          </form>
+          <div class="form-success" id="formSuccess" hidden>
+            <div class="form-success__icon"><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l7 7 15-16"/></svg></div>
+            <h3>Thank you, <span id="successName">friend</span>!</h3>
+            <p>Your enquiry has been received. We’ll get in touch with you shortly to talk about your special moment.</p>
+            <div class="form-success__ctas">
+              <a href="#" id="successWa" target="_blank" rel="noopener" class="btn btn--gold">Also send on WhatsApp</a>
+              <button type="button" class="btn btn--outline" id="successReset">New Enquiry</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
